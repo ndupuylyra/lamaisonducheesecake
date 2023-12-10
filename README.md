@@ -5,3 +5,5 @@
 
 - PHP from 8.2.X version
 - A MySQL database system (like PHPMyAdmin if you use Wamp or Xampp)
+- Composer
+- Symfony CLI

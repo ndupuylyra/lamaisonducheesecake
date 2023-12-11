@@ -221,11 +221,33 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
-.main-footer .sub-footer .two-cols .row .left .entete {
+.main-footer .sub-footer .two-cols .row .left .entete,
+.main-footer .sub-footer .two-cols .row .right .entete {
     font-size: 14px;
     color: #3cb4bc;
     text-align: left;
     padding: 20px 0;
+}
+.main-footer .sub-footer .two-cols .row .right {
+    background-image: url(/img/lyra.svg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: top 100px right 55px;
+}
+.main-footer .sub-footer .two-cols .row .right .call {
+    text-align: left;
+    margin-top: 55px;
+}
+.main-footer .sub-footer .two-cols .row .right .call a {
+    padding: 20px 60px;
+    background: #3cb4bc;
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+    font-weight: 700;
+}
+.main-footer .sub-footer .two-cols .row .right .call a:hover {
+    opacity: 0.85;
 }
 .main-footer .sub-footer .two-cols .row .left .footer-links {
     margin: 0 !important;
@@ -251,4 +273,11 @@ body {
 }
 .main-footer .sub-footer .two-cols .row .left .footer-links li a.span {
     font-weight: 400 !important;
+}
+.sub-footer .paymentmeansList ul li {
+    width: auto !important;
+    margin: 0 5px !important;
+}
+.sub-footer .paymentmeansList ul li img {
+    height: 30px;
 }

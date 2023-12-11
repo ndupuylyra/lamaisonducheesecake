@@ -24,3 +24,15 @@ Open a command prompt and type :
 
 ### 3 - Symfony CLI installation
 Open a command prompt and type ***scoop install symfony-cli*** then press ENTER.
+
+### 4 - Download project
+Download the ZIP project or make a ***git clone https://github.com/ndupuylyra/lamaisonducheesecake.git*** in a command prompt.
+
+### 5 - Project setup
+Open a command prompt inside the project folder you cloned or downloaded and type ***composer install***.
+
+### 6 - Launch project web server
+Open a command prompt inside the project folder and type ***symfony server:start***. As response the command prompt will give you the URL to put in the web browser.
+**THIS STEP IS TO DO EVERYTIME YOU WANT TO LAUNCH THE PROJECT**
+
+![image](https://github.com/ndupuylyra/lamaisonducheesecake/assets/92886727/54c05a6d-7dc8-4f02-b4f8-1ee768466979)
